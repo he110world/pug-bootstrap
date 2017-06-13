@@ -1,6 +1,6 @@
 {
   "name": "pug-bootstrap-attr",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "description": "pug-bootstrap with attributes support",
   "main": "bootstrap.pug",
   "scripts": {
@@ -20,7 +20,7 @@
     "framework",
     "mixins"
   ],
-  "author": "Mike Goodwin",
+  "author": "he110world",
   "contributors": [
     "https://github.com/mike-goodwin",
     "https://github.com/techjeffharris",
