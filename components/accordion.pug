@@ -9,7 +9,7 @@ mixin accordion-item(type,title,parent,expanded)
 	.panel(class="panel-"+type)
 		.panel-heading(role="tab", id="heading"+title)
 			h4.panel-title
-				a(data-toggle="collapse", data-parent="#accordion"+parent, href="#collapse"+id, aria-expanded="true" ,aria-controls="collapseOne")
+				a(data-toggle="collapse", data-parent="#accordion"+parent, href="#collapse"+id, aria-expanded="true" ,aria-controls="collapseOne")&attributes(attributes)
 					= title
 		unless expanded
 			.panel-collapse.collapse(id="collapse"+id, role="tabpanel", aria-labelledby="heading"+title)

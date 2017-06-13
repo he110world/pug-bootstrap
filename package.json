@@ -1,14 +1,14 @@
 {
-  "name": "pug-bootstrap",
+  "name": "pug-bootstrap-attr",
   "version": "0.0.15",
-  "description": "Bootstrap framework written completely using mixins in pug",
+  "description": "pug-bootstrap with attributes support",
   "main": "bootstrap.pug",
   "scripts": {
     "test": "mocha -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mike-goodwin/pug-bootstrap.git"
+    "url": "https://github.com/he110world/pug-bootstrap-attr.git"
   },
   "keywords": [
     "pug",
@@ -22,6 +22,7 @@
   ],
   "author": "Mike Goodwin",
   "contributors": [
+    "https://github.com/mike-goodwin",
     "https://github.com/techjeffharris",
     "https://github.com/Nakira",
     "https://github.com/thylux",
@@ -31,9 +32,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mike-goodwin/pug-bootstrap/issues"
+    "url": "https://github.com/he110world/pug-bootstrap-attr/issues"
   },
-  "homepage": "https://github.com/mike-goodwin/pug-bootstrap",
+  "homepage": "https://github.com/he110world/pug-bootstrap-attr",
   "devDependencies": {
     "mocha": "^2.3.4"
   },
