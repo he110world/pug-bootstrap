@@ -11,7 +11,7 @@ mixin modal(title,id,custom_btn,custom_btn_id)
 				.modal-body
 					block
 				.modal-footer
-					button.btn.btn-default(type="button",data-dismiss="modal") Close
 					if custom_btn
 						button.btn.btn-primary(type="button",id=custom_btn_id)= custom_btn
+					button.btn.btn-default(type="button",data-dismiss="modal") Close
 

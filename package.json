@@ -1,6 +1,6 @@
 {
   "name": "pug-bootstrap-attr",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "pug-bootstrap with attributes support",
   "main": "bootstrap.pug",
   "scripts": {
