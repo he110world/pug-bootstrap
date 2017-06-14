@@ -1,5 +1,5 @@
 //- modal
-mixin modal(title,id)
+mixin modal(title,id,custom_btn,custom_btn_id)
 	.modal.fade(id=id,tabindex="-1",role="dialog",aria-labelledby=id+"Label" aria-hidden="true")
 		.modal-dialog
 			.modal-content
@@ -12,3 +12,6 @@ mixin modal(title,id)
 					block
 				.modal-footer
 					button.btn.btn-default(type="button",data-dismiss="modal") Close
+					if custom_btn
+						button.btn.btn-primary(type="button",id=custom_btn_id)= custom_btn
+
